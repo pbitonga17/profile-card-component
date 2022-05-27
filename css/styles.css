@@ -11,6 +11,18 @@ body {
     min-height: 100vh;
     background-color: hsl(185, 75%, 39%);
 }
+/*** BACKGROUND ***/
+.bg-top {
+    position: absolute; 
+    right: 50%; 
+    bottom: 50%; 
+}
+.bg-bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/*** BACKGROUND ***/
 h1, h2 {
     font-size: 1.7rem;
 }
@@ -22,9 +34,9 @@ span {
     font-size: 1.7rem;
     color: hsl(0, 0%, 59%);
 }
-.pcard-container img {
+.pcard-container .bg-header {
     border-radius: 10px 10px 0 0;
-    max-width: 100%;
+    min-width: 100%;
 }
 .pcard-container {
     background-color: white;
