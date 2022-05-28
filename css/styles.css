@@ -24,9 +24,9 @@ body {
 }
 @media (min-width: 1441px) and (max-width: 2760px) {
     body {
-        background: url(../images/bg-pattern-top.svg) left -47vw top -40vw no-repeat,
-            url(../images/bg-pattern-bottom.svg) right -40vw bottom -50vw no-repeat, hsl(185, 75%, 39%);
-        background-size: 100vw 90vw;
+        background: url(../images/bg-pattern-top.svg) left -45vw top -50vw no-repeat,
+            url(../images/bg-pattern-bottom.svg) right -20vw bottom -35vw no-repeat, hsl(185, 75%, 39%);
+        background-size: 95vw 80vw;
     }
 }
 
