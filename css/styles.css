@@ -25,7 +25,7 @@ body {
 @media screen and (min-width: 1441px) {
     body {
         background: url(../images/bg-pattern-top.svg) left -45vw top -36vw no-repeat,
-            url(../images/bg-pattern-bottom.svg) right -40vw bottom -46vw no-repeat, hsl(185, 75%, 39%);
+            url(../images/bg-pattern-bottom.svg) right -40vw bottom -45vw no-repeat, hsl(185, 75%, 39%);
         background-size: 95vw 80vw;
     }
 }
