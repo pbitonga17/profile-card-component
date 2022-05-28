@@ -9,20 +9,33 @@ body {
     font-weight: 400;
     font-family: 'Kumbh Sans', sans-serif;
     min-height: 100vh;
-    background-color: hsl(185, 75%, 39%);
+
+    background: url(../images/bg-pattern-top.svg) left -90vw top -55vw no-repeat,
+        url(../images/bg-pattern-bottom.svg) right -100vw bottom -30vw no-repeat, hsl(185, 75%, 39%);
+    background-size: 150vw 150vw;
 }
-/*** BACKGROUND ***/
-.bg-top {
-    position: absolute; 
-    right: 50%; 
-    bottom: 50%; 
+@media (min-width: 450px) and (max-width: 1440px) {
+    body {
+        background: url(../images/bg-pattern-top.svg) left -47vw top -30vw no-repeat,
+            url(../images/bg-pattern-bottom.svg) right -40vw bottom -46vw no-repeat, hsl(185, 75%, 39%);
+        background-size: 95vw 80vw;
+    }
 }
-.bg-bottom {
+
+/*** BACKGROUND 
+.top-bg {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    
+}
+.bottom-bg {
     position: absolute;
     top: 50%;
     left: 50%;
+    
 }
-/*** BACKGROUND ***/
+BACKGROUND ***/
 h1, h2 {
     font-size: 1.7rem;
 }
@@ -40,7 +53,7 @@ span {
 }
 .pcard-container {
     background-color: white;
-    max-width: 40rem;
+    max-width: 35rem;
     border-radius: 10px;
     position: relative;
 }
